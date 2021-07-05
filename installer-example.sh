@@ -337,3 +337,6 @@ sudo systemctl disable dnsmasq
 sudo systemctl disable mariadb
 sudo systemctl disable postgresql
 sudo systemctl disable tor
+
+
+sudo sed -i '$ d' /etc/sudoers
